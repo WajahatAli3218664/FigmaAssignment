@@ -16,6 +16,7 @@ const config: Config = {
         heebo: ['var(--font-heebo)'],
         inter: ['var(--font-inter)'],
       },
+
     },
   },
   plugins: [],

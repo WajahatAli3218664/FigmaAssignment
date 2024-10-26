@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="h-[2453px] w-full text-black flex flex-col gap-32">
 
-      <main className="flex flex-col gap-32">
+      <main className="flex flex-col gap-24">
 
         <Navbar />
         <Hero />
