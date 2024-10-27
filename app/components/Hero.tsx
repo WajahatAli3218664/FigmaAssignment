@@ -15,7 +15,7 @@ const Hero = () => {
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br />
                     Velit officia consequat duis enim velit mollit.
                     Exercitation veniam<br /> consequat sunt nostrud amet.</p>
-                <button className='bg-[#F98585] font-medium leading-[26.44px] text-[18px] text-white rounded-sm w-[205px] h-[50px] drop-shadow-[0 4px 4px #4141418a] font-heebo'>Download Resume</button>
+                <button className='bg-[#F98585] font-medium leading-[26.44px] text-[18px] text-white rounded-sm w-[205px] h-[50px] drop-shadow-[0px 4px 4px 0px #4141418A] font-heebo'>Download Resume</button>
             </div>
 
             <div>
