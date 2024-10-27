@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 
+
 const Hero = () => {
     return (
         <section className="flex lg:flex-row flex-col justify-center gap-32 ">
