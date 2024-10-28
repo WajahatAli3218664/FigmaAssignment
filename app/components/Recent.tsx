@@ -3,8 +3,8 @@ import React from 'react'
 
 const Recent = () => {
     return (
-        <section className='bg-[#F4E2E2] flex flex-col gap-6 lg:px-40 h-[502px] w-full pt-6'>
-            <div className='flex lg:justify-between'>
+        <section className='bg-[#F4E2E2] flex flex-col gap-6 lg:px-40 lg:h-[502px] h-full w-full pt-6'>
+            <div className='flex lg:justify-between justify-around'>
                 <h1 className='font-heebo text-[22px] font-medium leading-[32.31px]'>
                     Recent posts
                 </h1>
@@ -13,8 +13,8 @@ const Recent = () => {
                 </h1>
             </div>
 
-            <div className='flex lg:flex-row lg:justify-between flex-col'>
-                <div className='bg-[#FFFFFF] w-[483px] h-[356px] py-12 px-10'>
+            <div className='flex lg:flex-row lg:justify-between items-center flex-col gap-8'>
+                <div className='bg-[#FFFFFF] lg:w-[483px] lg:h-[356px] w-[383px] py-12 px-10'>
                     <h1 className='font-heebo text-[26px] font-bold leading-[38px] tracking-normal flex'>
                         Making a design system from <br /> scratch
                     </h1>
@@ -30,7 +30,7 @@ const Recent = () => {
 
 
                 </div>
-                <div className='bg-[#FFFFFF] w-[483px] h-[356px] py-12 px-10'>
+                <div className='bg-[#FFFFFF] lg:w-[483px] lg:h-[356px] w-[383px] py-12 px-10'>
                     <h1 className='font-heebo text-[26px] font-bold leading-[38px] tracking-normal flex'>
                         Making a design system from <br /> scratch
                     </h1>
