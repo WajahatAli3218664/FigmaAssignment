@@ -10,10 +10,10 @@ function Card({ src }: CardProps) {
         <div className=' lg:w-[663.46px] lg:h-[184px] md:h-[164px] h-[90px] px-2 lg:px-0 flex gap-6'>
             <Image src={src} width={246} height={184} alt='preview'></Image>
             <div>
-                <h1 className='font-heebo lg:text-[30px] text-[20px] font-bold leading-[44.06px] flex'>
+                <h1 className='font-heebo lg:text-[30px] text-[20px] font-bold lg:leading-[44.06px] flex'>
                     Designing Dashboards
                 </h1>
-                <div className='flex gap-5 py-3 text-[#000000B2]'>
+                <div className='flex lg:flex-row flex-col gap-5 py-3 text-[#000000B2]'>
                     <div className='font-heebo bg-[#F98585] text-white rounded-[50px] w-[68px] h-6 font-bold flex justify-center'><p>2020</p></div>
                     <p>Dashboard</p>
 

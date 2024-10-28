@@ -14,7 +14,7 @@ const Recent = () => {
             </div>
 
             <div className='flex lg:flex-row lg:justify-between items-center flex-col gap-8'>
-                <div className='bg-[#FFFFFF] lg:w-[483px] lg:h-[356px] w-[383px] py-12 px-10'>
+                <div className='bg-[#FFFFFF] lg:w-[483px] lg:h-[356px] h-[400px] w-[343px] my-4 py-8 lg:py-12 px-10'>
                     <h1 className='font-heebo text-[26px] font-bold leading-[38px] tracking-normal flex'>
                         Making a design system from <br /> scratch
                     </h1>
@@ -30,7 +30,7 @@ const Recent = () => {
 
 
                 </div>
-                <div className='bg-[#FFFFFF] lg:w-[483px] lg:h-[356px] w-[383px] py-12 px-10'>
+                <div className='bg-[#FFFFFF] lg:w-[483px] lg:h-[356px] h-[400px] w-[343px] my-4 py-8 lg:py-12 px-10'>
                     <h1 className='font-heebo text-[26px] font-bold leading-[38px] tracking-normal flex'>
                         Making a design system from <br /> scratch
                     </h1>
